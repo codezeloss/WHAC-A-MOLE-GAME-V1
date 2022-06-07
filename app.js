@@ -58,5 +58,5 @@ function startGame() {
       alert(`GAME OVER! Your final score is ${result} points`);
     }
   };
-  let countDownTimerId = setInterval(countDown, 100);
+  let countDownTimerId = setInterval(countDown, 1000);
 }
