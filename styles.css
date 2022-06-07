@@ -22,3 +22,82 @@ body {
   background-color: #001b39;
   color: #fff;
 }
+
+.heading-primary {
+  color: #fff;
+  background-color: #001524;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 4rem;
+  margin-bottom: 4rem;
+}
+
+.heading-secondary {
+  color: #ffd35b;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.h2-22 {
+  color: #dfa60a;
+}
+
+.game-details {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+.mole {
+  /* background-color: #ffd35b; */
+  background-image: url('mole.jpeg');
+  background-size: cover;
+}
+
+.flex-rw {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn {
+  color: #fff;
+  width: 18rem;
+  padding: 1.8rem 2rem;
+  font-size: 1, 4rem;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  background-color: #002f5d;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #033d78;
+}
+
+.hidden {
+  display: none;
+}
