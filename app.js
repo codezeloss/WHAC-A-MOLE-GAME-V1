@@ -15,6 +15,7 @@ let timerId = null;
 // startBtn.classList.remove('hidden');
 // showGameDetails.classList.add('hidden');
 
+// START BUTTON
 startBtn.addEventListener('click', startGame);
 
 // START THE GAME
