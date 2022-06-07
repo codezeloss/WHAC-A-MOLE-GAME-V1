@@ -67,7 +67,7 @@ body {
 
 .mole {
   /* background-color: #ffd35b; */
-  background-image: url('mole.jpeg');
+  background-image: url('images/mole.jpeg');
   background-size: cover;
 }
 
@@ -100,4 +100,18 @@ body {
 
 .hidden {
   display: none;
+}
+
+.copyright {
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
